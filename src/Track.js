@@ -31,12 +31,12 @@ export default function Track(props) {
     };
 
     return(
-        <div className = 'Track'>
+        <div className='Track'>
             <div className="Track-information">
-                <h3>{props.track.name}</h3>
-                <p>{props.track.artist} | {props.track.album}</p>
+                <h2>{props.track.name}</h2>
+                <h4>by {props.track.artist} on {props.track.album}</h4>
             </div>
-            {renderAction()}
+            {addOrRemove()}
         </div>
     );
 };

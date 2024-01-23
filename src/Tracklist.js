@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Tracklist.css';
 
+// Import Track component to use when creating Tracklists
 import Track from './Track.js';
 
 

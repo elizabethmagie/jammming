@@ -1,9 +1,8 @@
 import React from 'react';
 
-
 import './SearchResults.css';
 
-
+// Import Tracklist component to render the tracks from tracklist in SearchResults
 import Tracklist from './Tracklist.js';
 
 

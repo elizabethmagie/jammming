@@ -35,7 +35,9 @@ export default function App() {
     }, [tracks]);
 
     const removeTrack = useCallback((track) => {
-        setTracks((prevTracks).filter((currentTrack) => currentTrack.id !== track.id));
+        setTracks((prevTracks) =>
+            prevTracks.filter((currentTrack) => currentTrack.id !== track.id)
+        );
     }, []);
 
 

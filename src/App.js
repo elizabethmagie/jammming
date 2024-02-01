@@ -54,10 +54,14 @@ export default function App() {
     // App render
     return (
         <div>
-            <h1>jammming</h1>
-            <h3>create custom playlists and save to spotify</h3>
-            <div className='App' >
+            <div className='App-Title' >
+                <h1><i>jammming</i></h1>
+                <h4>create custom playlists and save to spotify</h4>
+            </div>
+            <div className='App-SearchBar' >
                 <SearchBar onSearch={search} />
+            </div>
+            <div className='App' >
                 <div className='App-Playlist'>
                     <SearchResults searchResults={searchResults} onAdd={addTrack} />
                     <Playlist

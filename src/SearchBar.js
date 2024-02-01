@@ -20,8 +20,8 @@ export default function SearchBar(props) {
 
 
     return(
-        <div className ='SearchBar' >
-            <input placeholder ='Search for a song' onChange ={handleNewSong} />
+        <div className='SearchBar' >
+            <input placeholder ='search for a song' onChange ={handleNewSong} />
             <button className="SearchButton" onClick={searchSong}>
                 search
             </button>

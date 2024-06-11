@@ -16,12 +16,14 @@ export default function Playlist(props) {
 
     return(
         <div className='Playlist' >
-            <input onChange={handleNameChange} defaultValue={"new playlist"} />
-            <Tracklist
-                tracks={props.playlistTracks}
-                isRemoval={true}
-                onRemove={props.onRemove}
-            />
+            <input onChange={handleNameChange} placeholder={'new playlist'} />
+            <div>
+                <Tracklist
+                    tracks={props.playlistTracks}
+                    isRemoval={true}
+                    onRemove={props.onRemove}
+                />
+            </div>
             <button className='Save-Playlist' onClick={props.onSave} >
                 save playlist to spotify
             </button>

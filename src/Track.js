@@ -22,22 +22,22 @@ export default function Track(props) {
         if (props.isRemoval) {
             return (
                 <button className ='handleAddOrRemove' onClick ={removeTrack} >
-                    remove
+                    -
                 </button>
             )
         }
         return (
             <button className = 'handleAddOrRemove' onClick ={addTrack} >
-                add
+                +
             </button>
         );
     };
 
     return(
-        <div className='Track'>
-            <div className="Track-Details">
-                <h2>{props.track.name}</h2>
-                <h4>by {props.track.artist} on {props.track.album}</h4>
+        <div className='Track' >
+            <div className='Track-Details' >
+                <h3>{props.track.name}</h3>
+                <p>by {props.track.artist} on {props.track.album}</p>
             </div>
             {handleAddOrRemove()}
         </div>

@@ -8,7 +8,7 @@ import Track from './Track.js';
 
 export default function Tracklist(props) {
     return(
-        <div Classname='Tracklist' >
+        <div className='Tracklist' >
             {props.tracks.map((track) => {
                 return (
                     <Track
@@ -19,7 +19,7 @@ export default function Tracklist(props) {
                         onRemove={props.onRemove}
                     />
                 );
-            })};
+            })}
         </div>
     );
 };

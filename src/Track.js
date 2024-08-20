@@ -34,8 +34,8 @@ export default function Track(props) {
     };
 
     return(
-        <div className='Track' >
-            <div className='Track-Details' >
+        <div className='track' >
+            <div className='track-details' >
                 <h3>{props.track.name}</h3>
                 <p>by {props.track.artist} on {props.track.album}</p>
             </div>

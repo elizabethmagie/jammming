@@ -8,7 +8,7 @@ import Track from './Track.js';
 
 export default function Tracklist(props) {
     return(
-        <div className='Tracklist' >
+        <div className='tracklist' >
             {props.tracks.map((track) => {
                 return (
                     <Track

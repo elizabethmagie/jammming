@@ -1,11 +1,11 @@
-.SearchBar {
+.search-bar {
     display: flex;
     align-items: center;
     margin-bottom: 6.33rem;
     gap: 15px;
   }
   
-  .SearchBar input {
+  .search-bar input {
     width: 250px;
     padding: .2rem 0;
     border: 1px solid #fff;
@@ -16,11 +16,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .SearchBar input:focus {
+  .search-bar input:focus {
     outline: none;
   }
   
-  .SearchButton {
+  .search-button {
     cursor: pointer;
     width: 100px;
     height: 30px;
@@ -35,6 +35,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .SearchButton:hover {
+  .search-button:hover {
     background-color: #c1d7dfb0;
   }

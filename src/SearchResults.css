@@ -1,18 +1,18 @@
-.SearchResults {
+.search-results {
     width: 50%;
     height: 950px;
     overflow-y: scroll;
     padding: .88rem;
   }
 
-  .SearchResults-Title {
+  .search-results-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
     color: #c1d7df;
   }
 
-  .SearchResults-Tracklist {
+  .search-results-tracklist {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
   }
@@ -24,7 +24,7 @@
   }
   
   @media only screen and (max-width: 1020px) {
-    .SearchResults {
+    .search-results {
       width: 90%;
       margin-bottom: 2rem;
     }

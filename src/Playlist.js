@@ -15,7 +15,7 @@ export default function Playlist(props) {
     }, [props.onNameChange]);
 
     return(
-        <div className='Playlist' >
+        <div className='playlist' >
             <input onChange={handleNameChange} placeholder={'new playlist'} />
             <div>
                 <Tracklist
@@ -24,7 +24,7 @@ export default function Playlist(props) {
                     onRemove={props.onRemove}
                 />
             </div>
-            <button className='Save-Playlist' onClick={props.onSave} >
+            <button className='save-playlist' onClick={props.onSave} >
                 save playlist to spotify
             </button>
         </div>

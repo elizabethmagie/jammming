@@ -27,7 +27,7 @@ h4 {
 }
 
 
-.App {
+.app {
   height: 100%;
   margin: 0;
   padding: 0 8% 10% 8%;
@@ -41,26 +41,26 @@ h4 {
   box-sizing: border-box;
 }
 
-.App-Title {
+.app-title {
   display: flex;
   width: 100%;
   background-color: black;
 }
 
-.App-SearchBar {
+.app-search-bar {
   display: flex;
   width: 100%;
   background-color: black;
 }
 
-.App-Playlist {
+.app-playlist {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 @media only screen and (max-width: 1020px) {
-  .App-playlist {
+  .app-playlist {
     align-items: center;
     flex-direction: column;
   }

@@ -8,11 +8,11 @@ import Tracklist from './Tracklist.js';
 
 export default function SearchResults(props) {
     return(
-        <div className='SearchResults' >
-            <div className='SearchResults-Title' >
+        <div className='search-results' >
+            <div className='search-results-title' >
                 <h5>all tracks</h5>
             </div>
-            <div className='SearchResults-Tracklist' >
+            <div className='search-results-tracklist' >
                 <Tracklist tracks={props.searchResults} onAdd={props.onAdd} />
             </div>
         </div>

@@ -1,4 +1,4 @@
-.Playlist {
+.playlist {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .Playlist input {
+  .playlist input {
     width: 100%;
     border: 0;
     outline: 0;
@@ -22,7 +22,7 @@
     text-align: center;
   }
   
-  .Save-Playlist {
+  .save-playlist {
     cursor: pointer;
     width: 215px;
     padding: .5rem 0;
@@ -38,7 +38,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .Save-Playlist:hover {
+  .save-playlist:hover {
     background-color: #e475e47a;
   }
   
@@ -48,7 +48,7 @@
   }
   
   @media only screen and (max-width: 1020px) {
-    .Playlist {
+    .playlist {
       width: 90%;
     }
   }
